@@ -1,0 +1,29 @@
+{
+    "one_time": false,
+    "buttons": [
+        [{
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"1\"}",
+                    "label": "Хочу подписаться!"
+                },
+                "color": "positive"
+          }],
+          [{
+                  "action": {
+                      "type": "text",
+                      "payload": "{\"button\": \"1\"}",
+                      "label": "Хочу отписаться..."
+                  },
+                  "color": "secondary"
+            }],
+          [{
+                  "action": {
+                      "type": "text",
+                      "payload": "{\"button\": \"2\"}",
+                      "label": "Отмена"
+                  },
+                  "color": "negative"
+            }]
+    ]
+}
